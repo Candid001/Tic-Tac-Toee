@@ -235,3 +235,36 @@ footer {
     font: bold;
 }
 
+
+@media only screen and (max-width: 768px) {
+    .box1 {
+        width: 350px;
+        height: auto;
+        padding: 20px 0;
+        
+        div {
+            flex-direction: column;
+            gap: 10px;
+            
+            .div21, div {
+                width: 250px;
+                height: 100px;
+            }
+        }
+    }
+    
+    .grid-container {
+        width: 350px;
+        height: 350px;
+    }
+    
+    .ldiv {
+        width: 350px;
+        flex-direction: column;
+        align-items: center;
+        
+        .btn1, .btn2 {
+            width: 100%;
+        }
+    }
+}
