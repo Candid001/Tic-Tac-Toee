@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tak Toe Game</title>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <div>
+                <img src="championcup.png" alt="Champion Cup">
+                <h1>TicTacToe</h1>
+                <img src="championcup.png" alt="Champion Cup">
+            </div>
+            <p>Tic Tac Toe Game for 2 Players</p>
+        </header>
+
+
+        <div class="box1">
+            <div class="div1">
+                <img src="2people.png" alt="people icon" height="25px" width="auto">
+                <p>Score Board</p>
+            </div>
+            <div>
+                <div class="div21">
+                    <p class="p211" id="item">X</p>
+                    <p class="p212" id="playerXScore">0</p>
+                    <p class="p213">Player 1</p>
+                </div>
+                <div class="div22">
+                    <p class="p221" id="item">O</p>
+                    <p class="p222" id="playerOScore">0</p>
+                    <p class="p223">Player 2</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mdiv">
+            <p id="turnMessage">Player X's Turn</p>
+        </div>
+
+        <div class="grid-container">
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+        </div>
+
+        <div class="ldiv">
+            <button class="btn1" id="newGameButton">
+                <img src="reload.png" alt="reload icon" height="25px" width="auto">
+                <p>New Game</p>
+            </button>
+            <button class="btn2" id="resetScoresButton">Reset Scores</button>
+        </div>
+
+        <footer>
+            <p>Challenge your friends and become the ultimate TicTacToe champion</p>
+            <p>Game Developed by Dev.Basit for Larva Tech Academy</p>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
